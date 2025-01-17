@@ -50,21 +50,30 @@ func saveMarkdown(filename, content string) error {
 }
 
 var username = flag.String("user", "octocat", "user to generate a listing for")
+var markdown = flag.String("mdoverride", "", "use an existing markdown input")
 
 func main() {
 	flag.Parse()
-	repos, err := fetchRepositories(*username)
-	if err != nil {
-		log.Fatalf("Error fetching repositories: %v", err)
-	}
-	markdown := generateMarkdown(*username, repos)
-	md := fmt.Sprintf("%s_repos.md", *username)
-	err = saveMarkdown(md, markdown)
-	if err != nil {
-		log.Fatalf("Error saving markdown file: %v", err)
+	md := ""
+	if *markdown == "" {
+		repos, err := fetchRepositories(*username)
+		if err != nil {
+			log.Fatalf("Error fetching repositories: %v", err)
+		}
+		markdown := generateMarkdown(*username, repos)
+		md = fmt.Sprintf("%s_repos.md", *username)
+		err = saveMarkdown(md, markdown)
+		if err != nil {
+			log.Fatalf("Error saving markdown file: %v", err)
+		}
+	} else {
+		md = *markdown
+		if _, err := os.Stat(md); err != nil {
+			log.Fatalf("Error reading markdown file: %s", err)
+		}
 	}
 	ht := fmt.Sprintf("%s_repos.html", *username)
-	err = generateHTML(md, ht)
+	err := generateHTML(md, ht)
 	if err != nil {
 		log.Fatalf("Error saving markdown file: %v", err)
 	}
