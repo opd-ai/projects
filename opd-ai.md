@@ -6,9 +6,7 @@
 - [createon](https://github.com/opd-ai/createon): Createon is a self-hosted alternative to Patreon that enables creators to monetize their content using cryptocurrency payments.
 - [dndbot](https://github.com/opd-ai/dndbot): The opd-ai/dndbot project is an innovative bot that creates D&D adventure series using Claude, delivering endless adventure possibilities for enthusiasts. It ensures a seamless and immersive experience, making it a must-have tool for Dungeons & Dragons fans.
 - [goldbox-rpg](https://github.com/opd-ai/goldbox-rpg): goldbox-rpg is an open-source RPG engine inspired by the classic Gold Box series of role-playing games. It provides a framework for creating and managing game states, combat systems, and player interactions, primarily using the Go programming language.
-- [heroine-dusk](https://github.com/opd-ai/heroine-dusk): April OneGameAMonth WIP dungeon crawl game
 - [horde](https://github.com/opd-ai/horde): The opd-ai/horde project is a straightforward and efficient API designed for generating images using the Stable Horde. Its simplicity and high performance make it an essential tool for enhancing image generation capabilities with ease.
-- [javelin](https://github.com/opd-ai/javelin): Party-based roguelike (open-source strategy-RPG game).
 - [lloth](https://github.com/opd-ai/lloth): The opd-ai/lloth project is a web spider implemented in Go. It collects and manages links from web pages, featuring concurrent link collection and domain tracking.
 - [moneroger](https://github.com/opd-ai/moneroger): Moneroger is a Go-based application that manages monerod and monero-wallet-rpc for seamless integration into Go projects. It facilitates the interaction with Monero's daemon and wallet RPC to streamline cryptocurrency operations within Go applications.
 - [music](https://github.com/opd-ai/music): Music store for independent artists
