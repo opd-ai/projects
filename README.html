@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <meta name="description" content=""/>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Crimson+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+    <!-- Syntax highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1 id="hero-headline">Projects</h1>
+            <div id="hero-intro"></div>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="content-display">
+            <h1>Projects</h1>
+
+<p>This repository contains a tool that leverages the GitHub API to fetch and compile a list of a user&rsquo;s public repositories, presenting them in a markdown document with links and descriptions for easy reference. It automates the process of creating a comprehensive overview of a user&rsquo;s GitHub projects.</p>
+
+<h2>Features</h2>
+
+<ul>
+<li>Fetches all public repositories for a specified GitHub user.</li>
+<li>Generates a markdown document with an unordered list of repository names linked to their GitHub pages.</li>
+<li>Includes detailed descriptions for each repository.</li>
+<li>Easy-to-use and customizable.</li>
+</ul>
+
+<h2>Getting Started</h2>
+
+<h3>Prerequisites</h3>
+
+<ul>
+<li>Go (for building and running the tool)</li>
+<li>GitHub account and access token (if needed for higher rate limits)</li>
+</ul>
+
+<h3>Installation</h3>
+
+<ol>
+<li>Clone the repository:</li>
+</ol>
+
+<pre><code class="language-sh">   git clone https://github.com/opd-ai/projects.git
+   cd projects
+</code></pre>
+
+<ol>
+<li>Install dependencies:</li>
+</ol>
+
+<pre><code class="language-sh">   go get
+</code></pre>
+
+<h3>Usage</h3>
+
+<ol>
+<li><p>Open the <code>main.go</code> file and replace <code>username := &quot;octocat&quot;</code> with the desired GitHub username.</p></li>
+
+<li><p>Build and run the tool:</p></li>
+</ol>
+
+<pre><code class="language-sh">   go build
+   ./projects
+</code></pre>
+
+<ol>
+<li>The tool will generate a markdown file named <code>{username}_repos.md</code> in the current directory.</li>
+</ol>
+
+<h3>Example</h3>
+
+<p>For example, if you set the username to <code>octocat</code>, the tool will generate a file named <code>octocat_repos.md</code> with the following content:</p>
+
+<pre><code class="language-markdown"># octocat's Public Repositories
+
+- [repo1](https://github.com/octocat/repo1): Description for repo1.
+- [repo2](https://github.com/octocat/repo2): Description for repo2.
+- ...
+</code></pre>
+
+<h2>Contributing</h2>
+
+<p>We welcome contributions! Please follow these steps to contribute:</p>
+
+<ol>
+<li>Fork the repository.</li>
+<li>Create a new branch (<code>git checkout -b feature-branch</code>).</li>
+<li>Make your changes and commit them (<code>git commit -m 'Add new feature'</code>).</li>
+<li>Push to the branch (<code>git push origin feature-branch</code>).</li>
+<li>Create a new Pull Request.</li>
+</ol>
+
+<h2>License</h2>
+
+<p>This project is licensed under the MIT License.</p>
+
+<h2>Contact</h2>
+
+<p>For any questions or feedback, please feel free to reach out via GitHub Issues or contact us directly.</p>
+
+        </div>
+    </main>
+</body>
+</html>
