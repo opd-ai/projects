@@ -53,6 +53,7 @@ func saveMarkdown(filename, content string) error {
 var (
 	username = flag.String("user", "octocat", "user to generate a listing for")
 	markdown = flag.String("mdoverride", "", "use an existing markdown input")
+	index    = flag.Bool("index", false, "force html output to be index.html")
 )
 
 func main() {
@@ -79,6 +80,10 @@ func main() {
 		}
 		trmd := strings.TrimSuffix(md, filepath.Ext(md))
 		ht = fmt.Sprintf("%s.html", trmd)
+	}
+	if *index {
+		trmd := filepath.Dir(md)
+		ht = filepath.Join(trmd, "index.html")
 	}
 	err := generateHTML(md, ht)
 	if err != nil {
