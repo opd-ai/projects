@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
+	"strings"
 
 	"github.com/go-resty/resty/v2"
 )
@@ -56,27 +58,30 @@ var (
 func main() {
 	flag.Parse()
 	md := ""
+	ht := ""
 	if *markdown == "" {
 		repos, err := fetchRepositories(*username)
 		if err != nil {
 			log.Fatalf("Error fetching repositories: %v", err)
 		}
 		markdown := generateMarkdown(*username, repos)
-		md = fmt.Sprintf("%s_repos.md", *username)
+		md = fmt.Sprintf("%s.md", *username)
+		ht = fmt.Sprintf("%s.html", *username)
 		err = saveMarkdown(md, markdown)
 		if err != nil {
 			log.Fatalf("Error saving markdown file: %v", err)
 		}
+		fmt.Printf("Markdown document %s.md generated successfully.\n", *username)
 	} else {
 		md = *markdown
 		if _, err := os.Stat(md); err != nil {
 			log.Fatalf("Error reading markdown file: %s", err)
 		}
+		trmd := strings.TrimSuffix(md, filepath.Ext(md))
+		ht = fmt.Sprintf("%s.html", trmd)
 	}
-	ht := fmt.Sprintf("%s_repos.html", *username)
 	err := generateHTML(md, ht)
 	if err != nil {
 		log.Fatalf("Error saving markdown file: %v", err)
 	}
-	fmt.Printf("Markdown document %s_repos.md generated successfully.\n", *username)
 }
