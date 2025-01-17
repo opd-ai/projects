@@ -8,8 +8,7 @@ import (
 	"github.com/russross/blackfriday/v2"
 )
 
-func generateHTML(inputFile string, outputFile string) error {
-
+func generateHTML(inputFile, outputFile string) error {
 	mdContent, err := readFile(inputFile)
 	if err != nil {
 		return fmt.Errorf("Error reading input file: %v\n", err)
@@ -38,8 +37,8 @@ func readFile(filename string) ([]byte, error) {
 	return ioutil.ReadFile(filename)
 }
 
-func writeFile(filename string, content string) error {
-	return ioutil.WriteFile(filename, []byte(content), 0644)
+func writeFile(filename, content string) error {
+	return ioutil.WriteFile(filename, []byte(content), 0o644)
 }
 
 func convertMarkdownToHTML(mdContent []byte) []byte {

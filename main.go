@@ -1,11 +1,10 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"log"
 	"os"
-
-	"flag"
 
 	"github.com/go-resty/resty/v2"
 )
@@ -49,8 +48,10 @@ func saveMarkdown(filename, content string) error {
 	return err
 }
 
-var username = flag.String("user", "octocat", "user to generate a listing for")
-var markdown = flag.String("mdoverride", "", "use an existing markdown input")
+var (
+	username = flag.String("user", "octocat", "user to generate a listing for")
+	markdown = flag.String("mdoverride", "", "use an existing markdown input")
+)
 
 func main() {
 	flag.Parse()
