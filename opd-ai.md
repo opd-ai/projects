@@ -1,18 +1,102 @@
 # opd-ai's Public Repositories
 
+- [Anti-Slop-Guard](https://github.com/opd-ai/Anti-Slop-Guard): Reduce the prevalence of slop code when using github copilot in "Auto" mode.
+- [app-streamer](https://github.com/opd-ai/app-streamer): stream applications over http from the terminal
+- [asset-generator](https://github.com/opd-ai/asset-generator): Generate assets with SwarmUI
 - [awesome-tabletop-rpgs](https://github.com/opd-ai/awesome-tabletop-rpgs): Awesome list of free and/or open source tabletop RPGs
+- [becrabbening](https://github.com/opd-ai/becrabbening): Everything returns to crab
 - [blog](https://github.com/opd-ai/blog): opd-ai blog
 - [bookie](https://github.com/opd-ai/bookie): bookie is a Go library designed to convert markdown documents into professionally formatted PDF books, supporting features such as automatic chapter organization, rich content formatting, and table of contents generation. It enables authors to easily create well-structured, visually appealing PDF books from markdown files.
+- [bostonfear](https://github.com/opd-ai/bostonfear): Eldricht Adventures
+- [BrowserQuest](https://github.com/opd-ai/BrowserQuest): DEPRECATED - A HTML5/JavaScript multiplayer game experiment
+- [cluster](https://github.com/opd-ai/cluster): Self Hosting 2-to-X LLM cluster
+- [conspiracy](https://github.com/opd-ai/conspiracy): A flock of Ravens
+- [continue](https://github.com/opd-ai/continue): ⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI
 - [createon](https://github.com/opd-ai/createon): Createon is a self-hosted alternative to Patreon that enables creators to monetize their content using cryptocurrency payments.
+- [desktop-companion](https://github.com/opd-ai/desktop-companion): Virtual Pet + Dating Sim + Battle Bots
+- [diagon](https://github.com/opd-ai/diagon): Debian based distribution for running hidden services
 - [dndbot](https://github.com/opd-ai/dndbot): The opd-ai/dndbot project is an innovative bot that creates D&D adventure series using Claude, delivering endless adventure possibilities for enthusiasts. It ensures a seamless and immersive experience, making it a must-have tool for Dungeons & Dragons fans.
+- [docker-package](https://github.com/opd-ai/docker-package): Packaging system based on Docker
+- [dotfiles](https://github.com/opd-ai/dotfiles): No description provided.
+- [dtox](https://github.com/opd-ai/dtox): tox client using wain
+- [firefox](https://github.com/opd-ai/firefox): The unofficial becrabbening Mozilla's Firefox web browser.
+- [go-c-bindgen](https://github.com/opd-ai/go-c-bindgen): C Binding generator for Go
+- [go-cjdns](https://github.com/opd-ai/go-cjdns): pure-Go cjdns-like router
+- [go-conky](https://github.com/opd-ai/go-conky): conky clone in pure Go
+- [go-follow-cli](https://github.com/opd-ai/go-follow-cli): CLI for managing github followers
+- [go-gamelaunch](https://github.com/opd-ai/go-gamelaunch): A go port of dgamelaunch
+- [go-gamelaunch-client](https://github.com/opd-ai/go-gamelaunch-client): An optional client library for connecting to go-gamelaunch servers with advanced UI features
+- [go-gamelaunch-www](https://github.com/opd-ai/go-gamelaunch-www): A web interface to go-gamelaunch with optional tiling.
+- [go-jf-org](https://github.com/opd-ai/go-jf-org): Organize media for Jellyfin server
+- [go-jf-watch](https://github.com/opd-ai/go-jf-watch): Caching jellyfin client
+- [go-monero-wallet](https://github.com/opd-ai/go-monero-wallet): Monero wallet for Go
+- [go-netrek](https://github.com/opd-ai/go-netrek): No description provided.
+- [go-randomx](https://github.com/opd-ai/go-randomx): High performance RandomX implementation in pure-Go
+- [go-ratox](https://github.com/opd-ai/go-ratox): Ratox-like Tox Messaging client in Go. Use named pipes and shell scripts to customize your messaging.
+- [go-stats-generator](https://github.com/opd-ai/go-stats-generator): Generate stats for a Go project to help discover places which may need attention
+- [go-tor](https://github.com/opd-ai/go-tor): Tor client(not a relay, not an exit) in pure Go.
+- [go-twtw](https://github.com/opd-ai/go-twtw): Go program visualization tool inspired by The Way Things Work
+- [go-utp](https://github.com/opd-ai/go-utp): utp implementation in pure Go
+- [go2c](https://github.com/opd-ai/go2c): Transpile Go go C
 - [goldbox-rpg](https://github.com/opd-ai/goldbox-rpg): goldbox-rpg is an open-source RPG engine inspired by the classic Gold Box series of role-playing games. It provides a framework for creating and managing game states, combat systems, and player interactions, primarily using the Go programming language.
+- [granulosa](https://github.com/opd-ai/granulosa): Tailscale-like app over Tox. Named after the rough-skinned newt.
+- [gui](https://github.com/opd-ai/gui): Simple Pure-Go GUI toolkit
+- [heads-dell-netbooks](https://github.com/opd-ai/heads-dell-netbooks): Coreboot port to Dell Chromebook 11 and 13
 - [horde](https://github.com/opd-ai/horde): The opd-ai/horde project is a straightforward and efficient API designed for generating images using the Stable Horde. Its simplicity and high performance make it an essential tool for enhancing image generation capabilities with ease.
+- [i2p-cs-renewed](https://github.com/opd-ai/i2p-cs-renewed): I2P router in C#
+- [itox](https://github.com/opd-ai/itox): I2P over Tox transporr
 - [lloth](https://github.com/opd-ai/lloth): The opd-ai/lloth project is a web spider implemented in Go. It collects and manages links from web pages, featuring concurrent link collection and domain tracking.
+- [LobeLabyrinth](https://github.com/opd-ai/LobeLabyrinth): Encarta Mindmazs clone for the Web
+- [magnum](https://github.com/opd-ai/magnum): Opus encoder in pure Go
+- [methane](https://github.com/opd-ai/methane): Game matchmaking service based on Tox
+- [minilm](https://github.com/opd-ai/minilm): Go library for using small, quantized, local language models on old hardware in fun ways.
 - [moneroger](https://github.com/opd-ai/moneroger): Moneroger is a Go-based application that manages monerod and monero-wallet-rpc for seamless integration into Go projects. It facilitates the interaction with Monero's daemon and wallet RPC to streamline cryptocurrency operations within Go applications.
+- [mtox](https://github.com/opd-ai/mtox): TUI tox client using BubbleTea
+- [murmur](https://github.com/opd-ai/murmur): No description provided.
+- [muscimol](https://github.com/opd-ai/muscimol): Mesh P2P Network over Tox
 - [music](https://github.com/opd-ai/music): Music store for independent artists
+- [nmcd](https://github.com/opd-ai/nmcd): Pure Go Namecoin using btcd as library dependencies
+- [node-xmr-pool](https://github.com/opd-ai/node-xmr-pool): High performance Node.js (with native C addons) mining pool for Monero, Comes with lightweight example front-end app UI and script which uses the pool's AJAX API.
 - [opd-ai](https://github.com/opd-ai/opd-ai): The opd-ai organization is dedicated to developing open-source tools for creative workers, with a focus on tabletop roleplaying games and content creation. Their core projects include AI-generated D&D adventures and various supporting libraries, all aimed at enhancing the creative process and making high-quality content accessible to all.
 - [opd-ai.github.io](https://github.com/opd-ai/opd-ai.github.io): The opd-ai.github.io project, also known as The Dungeon Scribe's Vault, is an extensive archive of AI-generated D&D adventures released weekly. Each adventure is meticulously crafted through a seven-phase creative process, offering system-agnostic, ready-to-run content for all storytellers and dungeon masters.
+- [Open-LLM-VTuber](https://github.com/opd-ai/Open-LLM-VTuber): Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms
+- [opus](https://github.com/opd-ai/opus): Pure Go implementation of Opus
 - [paywall](https://github.com/opd-ai/paywall): opd-ai/paywall is a middleware solution for implementing cryptocurrency-based paywalls, primarily written in Go. It allows developers to monetize their content or services by requiring cryptocurrency payments for access.
+- [paywall-cases](https://github.com/opd-ai/paywall-cases): Use cases for Crypto Paywall
 - [projects](https://github.com/opd-ai/projects): This tool leverages the GitHub API to fetch and compile a list of a user's public repositories, presenting them in a markdown document with links and descriptions for easy reference. It automates the process of creating a comprehensive overview of a user's GitHub projects.
+- [pure-go-dl](https://github.com/opd-ai/pure-go-dl): Pure go dynamic linker
+- [rust-stats-generator](https://github.com/opd-ai/rust-stats-generator): No description provided.
+- [SD_Inpainter](https://github.com/opd-ai/SD_Inpainter): Krita extension for using stable-diffusion-webui inpainting
 - [srvmce](https://github.com/opd-ai/srvmce): Web Server with built-in TinyMCE
-- [wileedot](https://github.com/opd-ai/wileedot): The opd-ai/wileedot project is an automated TLS listener for Go applications, seamlessly handling certificate management through Let's Encrypt. It provides features like automatic certificate provisioning, renewal, and support for multiple domains, ensuring secure and ef
+- [store](https://github.com/opd-ai/store): Online store using opd-ai/paywall with pluggable backends
+- [tox](https://github.com/opd-ai/tox): toxcore implementation in Rust
+- [toxcore](https://github.com/opd-ai/toxcore): Implementation of libtoxcore in pure Go with C bindings intended to be a drop-in replacement for libtoxcore. Implements extensions for async messaging, x3dh, double-ratchet, and MLKEM-768.
+- [toxcore-testnet](https://github.com/opd-ai/toxcore-testnet): a compatibility testnet for c-toxcore and go-toxcore
+- [toxpt](https://github.com/opd-ai/toxpt): Tor over Tox pluggable transport, give Tor assistancs to your Tox friends
+- [tuimap](https://github.com/opd-ai/tuimap): TUI network diagnostic tool.
+- [ui2](https://github.com/opd-ai/ui2): Pure-Go, all static, portable UI framework. unlikely to succeed.
+- [unbeasts](https://github.com/opd-ai/unbeasts): Quadruped, flying, swimming animals & monsters; all beasts include mount-point annotations for appropriately sized riders
+- [unblades](https://github.com/opd-ai/unblades): Swords, axes, bows, staves, and genre-dependent ranged weapons
+- [uncrests](https://github.com/opd-ai/uncrests): Heraldry and emblems: faction banners, shield crests, flags
+- [unfibers](https://github.com/opd-ai/unfibers): Procedural hair styles, beards, and creature fur
+- [unflora](https://github.com/opd-ai/unflora): Trees, bushes, grass tufts, flowers, mushrooms as 3D meshes
+- [ungarments](https://github.com/opd-ai/ungarments): Clothing & armor meshes that conform to `unpeople` body shapes
+- [ungoods](https://github.com/opd-ai/ungoods): Potions, scrolls, food, chests, bags, and keys
+- [unmaps](https://github.com/opd-ai/unmaps): In-world cartographic maps: overworld, dungeon, treasure maps
+- [unmarks](https://github.com/opd-ai/unmarks): Decals and graffiti: blood, cracks, runes, posters
+- [unmotions](https://github.com/opd-ai/unmotions): Procedural locomotion animation cycles (walk, run, fly, swim, attack, idle)
+- [unnames](https://github.com/opd-ai/unnames): NPC names, place names, and fictional language fragments
+- [unpaths](https://github.com/opd-ai/unpaths): Terrain-conforming roads, cobbled paths, and bridges
+- [unpeople](https://github.com/opd-ai/unpeople): Procedurally generated humanoids by deterministic transformations of a base makehuman-exported model
+- [unrides](https://github.com/opd-ai/unrides): Genre-dependent vehicles: carts, ships, hovercrafts, mechs
+- [unsparks](https://github.com/opd-ai/unsparks): Particle systems: fire, smoke, magic dust, sparks, blood, water splash
+- [unspells](https://github.com/opd-ai/unspells): Magic spell VFX: casting visuals, projectile trails, impact effects
+- [unstones](https://github.com/opd-ai/unstones): Boulders, cliff faces, crystal formations, stalactites, stalagmites
+- [unsuite](https://github.com/opd-ai/unsuite): Roadmap for un-series of kaiju generators
+- [unsurfaces](https://github.com/opd-ai/unsurfaces): Tileable PBR material sets: albedo, normal, roughness, metallic maps
+- [untemplate](https://github.com/opd-ai/untemplate): template repo for unsuite
+- [untexts](https://github.com/opd-ai/untexts): In-world books, scrolls, notes, and stone inscriptions
+- [unthings](https://github.com/opd-ai/unthings): Furniture and props: tables, chairs, barrels, crates, lanterns, signs
+- [untrinkets](https://github.com/opd-ai/untrinkets): Rings, amulets, crowns, and gems with procedural faceting
+- [unvoices](https://github.com/opd-ai/unvoices): NPC vocal barks, grunts, laughter, pain sounds — no ML required
+- [unwards](https://github.com/opd-ai/unwards): Shields, spell tomes, orbs, and bucklers
