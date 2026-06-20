@@ -73,3 +73,8 @@ This project is licensed under the MIT License.
 ## Contact
 
 For any questions or feedback, please feel free to reach out via GitHub Issues or contact us directly.
+Donate Monero(The only good cryptocurrency) to support development
+==================================================================
+
+ - `monero:43H3Uqnc9rfEsJjUXZYmam45MbtWmREFSANAWY5hijY4aht8cqYaT2BCNhfBhua5XwNdx9Tb6BEdt4tjUHJDwNW5H7mTiwe`
+
